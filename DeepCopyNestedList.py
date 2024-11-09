@@ -1,4 +1,3 @@
-from statistics import fmean
 
 data_0 = [0,1]
 data_1 = [2,3]
