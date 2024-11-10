@@ -81,3 +81,46 @@ print(f"Hasil tambah = {k}")
 print(f"Hasil kurang = {l}")
 print(f"Hasil kali = {m}")
 print(f"Hasil bagi = {n}")
+
+'''Default Argumen'''
+
+# def function(argument):
+# def function(argument = nilai default)
+
+# contoh 1
+def say_hello(name = "Ganteng"):
+    '''Function default argument'''
+    print(f"hai {name}")
+
+say_hello("Ini Argument")
+say_hello()
+
+# contoh 2
+def sapa_dia(name, message = "Apa Kabar ?"):
+    '''Function dengan satu input biasa dan default argument'''
+    print(f"Hai {name}, {message}")
+
+sapa_dia("Dilla", "Aku KANGENNNNN")
+sapa_dia("Ade")
+
+# contoh 3
+def hitung_pangkat(angka, pankat = 2):
+    hasil = angka**pankat
+    return hasil
+
+print(hitung_pangkat(8,2))
+
+hasil = hitung_pangkat(pankat=3, angka=5)
+print(hasil)
+
+# contoh 4
+
+def fungsi(i1=1,i2=2,i3=3,i4=4):
+    hasil = i1  + i2 + i3 + i4
+    return hasil
+
+print(fungsi())
+print(fungsi(i2=4))
+hasil = fungsi(i4=1)
+print(hasil)
+
