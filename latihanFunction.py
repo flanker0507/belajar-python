@@ -11,8 +11,8 @@ def header():
 def input_user():
     '''Function Input User'''
     # Mengambil input user
-    lebar = int(input(f"Masukka nilai lebar = "))
-    panjang = int(input(f"Masukka nilai panjang = "))
+    lebar = int(input(f"Masukkan nilai lebar = "))
+    panjang = int(input(f"Masukkan nilai panjang = "))
 
     return lebar, panjang
 
